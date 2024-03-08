@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1{
+            color: aliceblue; 
+            background-color: rgb(0, 0, 0); 
+            text-align: center;
+        }
+        input {
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        select {
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button{
+            padding: 10px 15px; 
+            font-size: 16px; 
+            background-color: #f1629e; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <a href="../index.html"style="padding: 2%;"><b>Home</b></a>
+    <a href="../project/index.html" style="padding: 2%;"><b>Projects</b></a>
+    <a href="../skils/index.html" style="padding: 2%;"><b>Skills</b></a>
+    <a href="../team/index.html" style="padding: 2%;"><b>Team</b></a>
+    <a href="../contact/index.html" style="padding: 2%;"><b>Contact</b></a>
+    <hr>
+    <h1>Event Regitration Form</h1>
+    <form>
+        <label for="name">Name :</label>
+        <input type="text" id="first-name" name="firstName" placeholder="first Name" required>
+        <input type="text" id="last-name" name="lastName" placeholder ="last Name"> <br><br><br>
+
+        <label for ="company">Company :</label>
+        <input type ="text"id ="company"name ="company"> <br><br><br>
+
+        <label for ="email">Email :</label>
+        <input type = "email"id = "email"name = "email" placeholder="example@gmail.com" size="40"> <br><br><br>
+
+        <label for="phone">Phone :</label>
+        <input type="tel" id="area-code" name="areaCode" size="10" placeholder="area code">
+        <input type="tel" id= "phone-number" name="phoneNumber" placeholder="phone number"> <br><br><br>
+
+        <label for="">Subject :</label>
+        <select name="subject">
+            <option value="">.....................</option>
+            <option value="">.....................</option>
+            <option value="">.....................</option>
+        </select> <br><br><br>
+
+        <label for="">Are you an existing customer?</label>
+        <input  type="radio" name="Yes">yes
+        <input type="radio" name="No">No
+
+        <br><br><br><br>
+
+        <textarea name="comments" cols="50" rows="10">Enter your Feedback...</textarea> <br><br><br>
+
+        <button >Register</h6></button>
+
+    </form>
+</body>
+</html>
